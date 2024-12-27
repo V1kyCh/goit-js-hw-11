@@ -1,0 +1,16 @@
+.box  {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: transform 500ms, background-color 500ms;
+    margin-top: 50px;
+}
+.box-animation {
+    transform: scale(1.5) rotate(45deg);
+    background-color: blue;
+}
+.line {
+    width: 500px;
+    height: 1px;
+    background-color: black;
+}
